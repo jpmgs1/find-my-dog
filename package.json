@@ -1,0 +1,28 @@
+{
+  "name": "find-my-dog",
+  "version": "1.0.0",
+  "description": "find-my-dog é um bot de WhatsApp que salva suas informações e informações do seu pet, posteriormente se ele se perder, quem encontra-lo poderá entrar em contato com o bot e você receberá um alerta de que seu pet foi encontrado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estopassoli/find-my-dog.git"
+  },
+  "keywords": [
+    "bot",
+    "whats",
+    "app",
+    "find-my-dog"
+  ],
+  "author": "Erick Stopassoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estopassoli/find-my-dog/issues"
+  },
+  "homepage": "https://github.com/estopassoli/find-my-dog#readme",
+  "dependencies": {
+    "venom-bot": "^3.1.12"
+  }
+}
