@@ -6,6 +6,7 @@ const { getStage } = require("./src/scripts/getStage");
 bot.create().then((client) => start(client));
 
 function start(client) {
+  //anti ligaçoes
   client.onIncomingCall(async (call) => {
     console.log("Ligação recusada de: "+parseFloat(call.peerJid));
     client.sendText(call.peerJid, "Desculpe, não posso atender ligações.").then(async ()=>{client.blockContact(call.peerJid);})

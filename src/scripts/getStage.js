@@ -7,10 +7,15 @@ function getStage(user, msg, contato, client, message) {
     return db[user].stage;
   } else {
     db[user] = {
-      stage: 'inicio',
-      itens: [],
-      preload: [],
-      total: 0,
+      stage: 0,
+      
+      //dados
+      user_name:'',
+      user_num:'',
+      user_address:'',
+      pet_tag:'', //gerar automaticamente a partir do numero de telefone do dono
+      pet_name:'',
+
     };
     return db[user].stage;
   }
