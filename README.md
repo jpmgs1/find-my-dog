@@ -26,8 +26,8 @@ Executar Projeto
 
 ```bash
   npm start
-  
+```
+
 # Projeto em construção.
 
-
-```06/11/2021 - Rotas de cadastro e consulta criadas```
+10/12/2021 - qq duvida só deixar a pergunta.
